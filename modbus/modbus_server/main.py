@@ -14,6 +14,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 class BatteryDataProvider:
     """Provedor de dados da bateria (pode ser substituído por leitura real de sensores)"""
     
