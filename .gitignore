@@ -1,0 +1,43 @@
+# === DModbus Project GitIgnore ===
+
+# --- Compilações e Binários (Go) ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dmodbus.exe
+blockchain_template/cmd/node/dmodbus.exe
+
+# --- Ambientes Virtuais e Caches (Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# --- Bancos de Dados Locais (LevelDB da Blockchain) ---
+# Impede que as cópias locais da ledger de teste poluam o repositório remoto
+dmodbus_ledger_*
+*.db
+
+# --- Configurações de IDEs e Editores ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Arquivos do Sistema Operacional ---
+Thumbs.db
+.DS_Store
+.DS_Store?
+[Dd]esktop.ini
