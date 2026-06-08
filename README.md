@@ -1,13 +1,13 @@
 # DModbus: Blockchain for Network Identity Validation in Modbus Connections
 
-[cite_start]This repository contains the official implementation of **DModbus**, a non-invasive retrofit security layer designed to mitigate inherent vulnerabilities in legacy industrial automation networks operating under the Modbus/TCP protocol[cite: 8, 90]. [cite_start]By integrating a permissioned Proof of Authority (PoA) blockchain framework, DModbus builds a distributed and immutable ledger for device identities[cite: 9, 220]. [cite_start]This distributed notary infrastructure enables robust, real-time cryptographic validation of network endpoints, successfully neutralizing Man-in-the-Middle (MitM) and Address Resolution Protocol (ARP) spoofing vectors[cite: 10, 11, 235].
+This repository contains the official implementation of **DModbus**, a non-invasive retrofit security layer designed to mitigate inherent vulnerabilities in legacy industrial automation networks operating under the Modbus/TCP protocol. By integrating a permissioned Proof of Authority (PoA) blockchain framework, DModbus builds a distributed and immutable ledger for device identities. [cite_start]This distributed notary infrastructure enables robust, real-time cryptographic validation of network endpoints, successfully neutralizing Man-in-the-Middle (MitM) and Address Resolution Protocol (ARP) spoofing vectors.
 
 ---
 ## Authors
-* [cite_start]**Paulo Henrique Mariano** (Federal University of Ouro Preto / FIEMG) [cite: 3, 41, 479, 480]
-* [cite_start]**Devanir Caetano Filho** (FIEMG System / SENAI Center 4.0) [cite: 3, 42, 482, 483]
-* [cite_start]**Carlos Frederico Cunha Cavalcanti** (Federal University of Ouro Preto) [cite: 3, 41, 486]
-* [cite_start]**Ricardo Augusto Rabelo Oliveira** (Federal University of Ouro Preto) [cite: 3, 4, 41, 491]
+* [cite_start]**Paulo Henrique Mariano** (Federal University of Ouro Preto / FIEMG) 
+* [cite_start]**Devanir Caetano Filho** (FIEMG System / SENAI Center 4.0) 
+* [cite_start]**Carlos Frederico Cunha Cavalcanti** (Federal University of Ouro Preto)
+* [cite_start]**Ricardo Augusto Rabelo Oliveira** (Federal University of Ouro Preto)
 
 ---
 
